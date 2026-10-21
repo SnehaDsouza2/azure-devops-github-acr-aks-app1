@@ -44,5 +44,5 @@ stages:
           inputs:
             targetPath: '$(Build.ArtifactStagingDirectory)'
             artifact: 'kube-manifests'
-            publishLocation: 'Container'
+            publishLocation: 'pipeline'
     
